@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
-import {MDCDialogAdapter} from './adapter';
-import {cssClasses, numbers, strings} from './constants';
+import {MDCFoundation} from './node_modules/@material/base/foundation.js';
+import {MDCDialogAdapter} from './adapter.js';
+import {cssClasses, numbers, strings} from './constants.js';
 
 export class MDCDialogFoundation extends MDCFoundation<MDCDialogAdapter> {
   static get cssClasses() {

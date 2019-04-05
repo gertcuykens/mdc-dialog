@@ -21,16 +21,16 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
-import {closest, matches} from '@material/dom/ponyfill';
-import {MDCRipple} from '@material/ripple/component';
-import {FocusTrap} from 'focus-trap';
-import {MDCDialogAdapter} from './adapter';
-import {MDCDialogFoundation} from './foundation';
-import {MDCDialogCloseEventDetail} from './types';
-import * as util from './util';
-import {MDCDialogFocusTrapFactory} from './util';
+import {MDCComponent} from './node_modules/@material/base/component.js';
+import {SpecificEventListener} from './node_modules/@material/base/types.js';
+import {closest, matches} from './node_modules/@material/dom/ponyfill.js';
+import {MDCRipple} from './node_modules/@material/ripple/component.js';
+import {FocusTrap} from './focus-trap.js';
+import {MDCDialogAdapter} from './adapter.js';
+import {MDCDialogFoundation} from './foundation.js';
+import {MDCDialogCloseEventDetail} from './types.js';
+import * as util from './util.js';
+import {MDCDialogFocusTrapFactory} from './util.js';
 
 const {strings} = MDCDialogFoundation;
 

@@ -2,8 +2,8 @@
   "compileOnSave": true,
   "compilerOptions": {
     "target": "es2015",
-    "module": "es2015",
-    "moduleResolution": "node",
+    // "module": "es2015",
+    // "moduleResolution": "node",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "strict": true,
@@ -25,5 +25,5 @@
     ],
     "types": []
   },
-  "exclude": []
+  "exclude": ["dist"]
 }

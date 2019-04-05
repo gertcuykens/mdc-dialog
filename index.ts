@@ -21,10 +21,10 @@
  * THE SOFTWARE.
  */
 
-import * as util from './util';
+import * as util from './util.js';
 
 export {util};
-export * from './adapter';
-export * from './component';
-export * from './foundation';
-export * from './types';
+export * from './adapter.js';
+export * from './component.js';
+export * from './foundation.js';
+export * from './types.js';

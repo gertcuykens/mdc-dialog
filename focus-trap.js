@@ -35,7 +35,7 @@ var activeFocusTraps = (function() {
   };
 })();
 
-function focusTrap(element) { // userOptions:any
+export default function focusTrap(element) { // userOptions:any
   var doc = document;
   var container =
     typeof element === 'string' ? doc.querySelector(element) : element;
